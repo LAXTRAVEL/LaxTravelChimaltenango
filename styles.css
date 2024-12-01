@@ -1,0 +1,93 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('fondo.jpg'); /* Cambia esto por la imagen que desees */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Contenedor principal */
+.container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para mejorar la visibilidad */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Logo */
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Título */
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #f1f1f1; /* Color claro para resaltar */
+}
+
+/* Redes sociales */
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Botones */
+.buttons button {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #555;
+}
+
+/* Agregar imágenes de detalle (como aviones, pasaportes) */
+.detail-images {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    opacity: 0.2;
+}
+
+.detail-images img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
